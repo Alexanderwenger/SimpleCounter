@@ -13,9 +13,9 @@ return(
     <div className="calendar">
         <i className="far fa-clock"></i>
     </div>
-<div className="Four">{props.digitFour}</div>
-<div className="Three">{props.digitThree}</div>
-<div className="dos">{props.digitTwo % 100}</div>
+<div className="Four">{props.digitFour % 10}</div>
+<div className="Three">{props.digitThree % 10}</div>
+<div className="dos">{props.digitTwo % 10}</div>
 <div className="uno">{props.digitOne % 10}</div>
 </div>
 );
